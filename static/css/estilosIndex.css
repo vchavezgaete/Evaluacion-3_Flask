@@ -1,0 +1,36 @@
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+
+   .button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   height: 80px;
+   font-size: 20px;
+   background-color: #007BFF;
+   color: white;
+   border: none;
+   text-decoration: none;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+   border-radius: 0; /* Cambia el valor de border-radius a 0 para obtener un botón rectangular */
+   margin-bottom: 20px;
+ }
+
+  .button:hover {
+    background-color: #0056b3;
+  }
